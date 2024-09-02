@@ -11,7 +11,6 @@ Ovaj repozitorijum sadrži Python projekat za analizu sentimenata i klasifikacij
 - [Upotreba](#upotreba)
 - [Modeli i Tehnike](#modeli-i-tehnike)
 - [Rezultati](#rezultati)
-- [Doprinos](#doprinos)
 
 ## Pregled Projekta
 
@@ -49,8 +48,3 @@ Ovaj projekat koristi sledeće modele i tehnike reprezentacije teksta:
 ## Rezultati
 
 Rezultati analize pokazuju varijacije u tačnosti, preciznosti, odzivu i F1 skoru u zavisnosti od korišćenog modela i tehnike reprezentacije teksta. SVM i Logistic Regression modeli su pokazali najbolje performanse kada se koriste sa DistilBERT tehnikom.
-
-## Doprinos
-
-Slobodno doprinesite projektu slanjem pull request-ova, otvaranjem problema ili predlaganjem novih funkcionalnosti.
-
