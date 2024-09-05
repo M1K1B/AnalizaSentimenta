@@ -110,7 +110,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Sentiment Analysis using various classifiers.")
     parser.add_argument("--data_path", type=str, required=True, help="Path to the root data directory containing 'train' and 'test' folders.")
     parser.add_argument("--model", type=str, required=True, choices=['naive_bayes', 'logistic_regression', 'svm', 'random_forest'], help="Model to use for classification.")
-    parser.add_argument("--feature_method", type=str, default="tfidf", choices=['bow', 'tfidf', 'hash', 'bert'], help="Feature extraction method.")
+    parser.add_argument("--feature_method", type=str, default="tfidf", choices=['bow', 'tfidf', 'bert'], help="Feature extraction method.")
     
     args = parser.parse_args()
     main(args)
